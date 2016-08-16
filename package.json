@@ -1,6 +1,6 @@
 {
   "name": "servicetitan",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node wrapper for the ServiceTitan API",
   "author": {
     "name": "Maxmillion McLaughlin",
@@ -20,7 +20,6 @@
     "node": "~4.2"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
     "mocha": "^3.0.2"
   },
   "main": "lib",
