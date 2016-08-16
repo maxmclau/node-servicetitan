@@ -9,12 +9,27 @@ var st           = require('./../lib/index')({
 });
 
 describe("[customers]", function() {
-  it("should successfully execute GET /customers (getCustomers)", function(next) {
+  it("should successfully execute GET /customers/ (getCustomers)", function(next) {
     st
       .getCustomers()
       .then(function(res) {
-        console.log(res);
-      next();
-    });
+        assert.notEqual(res.data[0].id, null);
+
+        next();
+      });
+  });
+});
+
+describe("[customers]", function() {
+  it("should successfully execute GET /customers/:id (getCustomers)", function(next) {
+    st
+      .getCustomers({
+        id : 10301
+      })
+      .then(function(res) {
+        assert.notEqual(res.data.id, null);
+
+        next();
+      });
   });
 });
