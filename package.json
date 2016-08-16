@@ -1,0 +1,34 @@
+{
+  "name": "servicetitan",
+  "version": "0.0.1",
+  "description": "Node wrapper for the ServiceTitan API",
+  "author": {
+    "name": "Maxmillion McLaughlin",
+    "email": "npm@maxmclau.com"
+  },
+  "homepage": "https://github.com/maxmclau/node-servicetitan",
+  "keywords": [
+    "servicetitan",
+    "api",
+    "wrapper"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxmclau/node-servicetitan.git"
+  },
+  "engines": {
+    "node": "~4.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  },
+  "main": "lib",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "request": "^2.74.0"
+  }
+}
