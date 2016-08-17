@@ -7,15 +7,15 @@
     "email": "npm@maxmclau.com"
   },
   "homepage": "https://github.com/maxmclau/node-servicetitan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxmclau/node-servicetitan.git"
+  },
   "keywords": [
     "servicetitan",
     "api",
     "wrapper"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/maxmclau/node-servicetitan.git"
-  },
   "engines": {
     "node": "~4.2"
   },
