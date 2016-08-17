@@ -18,11 +18,11 @@ var st = require('servicetitan')({
 });
 
 st
-  .getCustomers(function(err, res) {
-    console.log(res.);
+  .getCustomers({
+    id : 0
   })
-  .then(function() {
-    console.log('Complete');
+  .then(function(res) {
+    console.log(res);
   })
   .catch(function(err) {
     console.log('Error');
