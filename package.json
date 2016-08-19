@@ -1,6 +1,6 @@
 {
   "name": "servicetitan",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Node wrapper for the ServiceTitan API",
   "author": {
     "name": "Maxmillion McLaughlin",
