@@ -3,7 +3,7 @@
 [![Build Status](http://img.shields.io/travis/maxmclau/node-servicetitan/master.svg?style=flat-square)](https://travis-ci.org/maxmclau/node-servicetitan)
 [![Dependency Status](http://img.shields.io/david/maxmclau/node-servicetitan.svg?style=flat-square)](https://github.com/maxmclau/node-servicetitan/blob/master/package.json)
 
-Node Servicetitan is a node.js wrapper for the [go.servicetitan.com](https://servicetitan.com/) api.
+Node.js wrapper for the [go.servicetitan.com](https://servicetitan.com/) api.
 
 #### Installation
 
